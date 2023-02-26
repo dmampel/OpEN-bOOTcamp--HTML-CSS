@@ -1,0 +1,26 @@
+
+body{
+    background-color: black;
+    
+}
+button::before{
+    content: 'Pasa por encima';
+}
+button:hover::before{
+    
+    content: 'Hecho!';
+}
+button:hover{
+    background-color: green;
+    color: white;
+    
+}
+button{
+    padding: 30px;
+    border-radius: 5px;
+    font-family: fantasy;
+    margin-left: 600px;
+    margin-top:200px;
+    font-size: large;
+    box-shadow: 5px 5px 5px red;
+}
