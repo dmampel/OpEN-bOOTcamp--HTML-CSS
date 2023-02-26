@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.galeria-imagen{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px gray;
+    
+    
+}
+
+.galeria-imagen:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
