@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,200;1,600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(9, 6, 43);
+    color: white;
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.logo img {
+    width: 500px;
+
+}
+
+.links h3 {
+    font-size: 40px;
+
+}
+
+.links h3 span {
+    color: purple;
+    font-size: 55px;
+
+
+}
+
+.links .btn-google {
+    padding: 15px;
+    padding-left: 35px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-image: url(../ArchivosUtiles/png-transparent-google-logo-google-text-trademark-logo.png);
+    background-size: 19%;
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+
+}
+
+.links .btn-twitter {
+    padding: 15px;
+    padding-left: 35px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-image: url(../ArchivosUtiles/twitter-message-chat-inbox-png-logo-26.png);
+    background-size: 20%;
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.btn-google:hover,
+.btn-twitter:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #EA4C89;
+
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.btn-google,
+.btn-twitter {
+    margin: 5px;
+
+}
+
+.separador span {
+    font-size: 20px;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+form label span {
+    font-size: 20px;
+}
+
+.label,
+.input {
+    display: block;
+
+}
+
+.input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: lighter;
+    cursor: pointer;
+    outline: none;
+}
+
+.input:hover,
+.input:focus,
+.btn-submit:hover {
+    box-shadow: 2px 2px 5px #EA4C89;
+
+    background-color: rgb(9, 6, 43);
+    transition: background-color 0.4s, border 0.4s, box-shadow 0.4s;
+    color: #EA4C89;
+
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+
+.btn-submit {
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background-color: #EA4C89;
+    font-size: x-large;
+}
+
+.btn-submit:hover {
+    opacity: 0.60;
+    cursor: pointer;
+}
+
+
+.footer {
+    text-align: center;
+    color: gray;
+}
